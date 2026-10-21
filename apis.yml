@@ -1,7 +1,6 @@
 aid: zortec
 name: Zortec
-description: 'Zortec is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Zortec International provides enterprise software solutions focusing on data integration, application modernization, and digital transformation. Their platform offers tools for RAD development, legacy system modernization, and database independence, helping organizations streamline operations and accelerate innovation across various industries.'
 url: https://raw.githubusercontent.com/api-evangelist/zortec/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:g2-catalog
@@ -12,6 +11,10 @@ created: '2026-10-21'
 modified: '2026-10-21'
 tags:
 - Company
+- Integration
+- Modernization
+- Enterprise
+- Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zortec-domain-security.yml
 - type: Website
   url: https://zortec.com/
+- type: Documentation
+  url: https://zortec.com/
+- type: Support
+  url: https://support.zortec.com:8443
