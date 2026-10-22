@@ -1,0 +1,16 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/zortec/integrations
+- https://n8n.io/integrations/zortec/
+- https://composio.dev/toolkits/zortec
+- https://monid.ai/tools/zortec
+checked:
+- https://composio.dev/toolkits/zortec
+- https://monid.ai/tools/zortec
+- https://n8n.io/integrations/zortec/
+- https://zapier.com/apps/zortec/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

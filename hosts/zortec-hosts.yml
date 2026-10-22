@@ -1,0 +1,75 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 3
+  other_domain: 2
+  platform: 0
+  roles:
+  - api
+  - support
+  - website
+hosts:
+- host: api.zortec.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: zortec.com
+  role: api
+  relation: own
+- host: api.zortec.com:8443
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: zortec.com:8443
+  role: api
+  relation: other-domain
+- host: support.zortec.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zortec.com
+  role: support
+  relation: own
+- host: support.zortec.com:8443
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Support
+  serves: []
+  registrable_domain: zortec.com:8443
+  role: support
+  relation: other-domain
+- host: zortec.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  - Documentation
+  - DeveloperPortal
+  - GettingStarted
+  - Blog
+  - Roadmap
+  - Pricing
+  - SignUp
+  - TermsOfService
+  - PrivacyPolicy
+  - Postman
+  serves: []
+  registrable_domain: zortec.com
+  role: website
+  relation: own

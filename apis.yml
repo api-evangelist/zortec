@@ -1,27 +1,40 @@
 aid: zortec
+
 name: Zortec
+
 description: 'Zortec International provides enterprise software solutions focusing on data integration, application modernization, and digital transformation. Their platform offers tools for RAD development, legacy system modernization, and database independence, helping organizations streamline operations and accelerate innovation across various industries.'
+
 url: https://raw.githubusercontent.com/api-evangelist/zortec/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
 - Integration
 - Modernization
 - Enterprise
 - Software
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/zortec-hosts.yml
 - type: DomainSecurity
   url: security/zortec-domain-security.yml
 - type: Website
@@ -30,3 +43,44 @@ common:
   url: https://zortec.com/
 - type: Support
   url: https://support.zortec.com:8443
+
+- type: Documentation
+  url: https://zortec.com/developer-portal
+- type: DeveloperPortal
+  url: https://zortec.com/developer-portal
+- type: GettingStarted
+  url: https://zortec.com/getting-started
+- type: Blog
+  url: https://zortec.com/blog
+- type: Roadmap
+  url: https://zortec.com/roadmap
+- type: Pricing
+  url: https://zortec.com/pricing
+- type: SignUp
+  url: https://zortec.com/signup
+- type: TermsOfService
+  url: https://zortec.com/terms
+- type: PrivacyPolicy
+  url: https://zortec.com/privacy
+- type: Postman
+  url: https://zortec.com/postman
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://zortec.com/
+    status: null
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
